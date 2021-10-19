@@ -44,10 +44,9 @@ The purpose of this dating app is to target single or lonely users and allow the
 
 ### 2. Screen Archetypes
 
-* Create an Account
+* Create an Account/ Login Screen
    * User must create an account in order to be allowed access to the site.
    * User must make first initial payment to gain access to the account.
-* Login Screen
    * User must log in before accessing the account
    * If user forgot password, they will click the "forgot password" button to retrieve password.
 * Home Feed Screen
