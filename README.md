@@ -100,3 +100,59 @@ The purpose of this dating app is to target single or lonely users and allow the
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+
+
+
+
+
+
+
+CRUD	HTTP Verb	Example
+Create	POST	Creating a new rank from the candidate’s profile
+Read	GET	Fetching posts for a user's profile
+Update	PUT	Changing a user's profile image
+Delete	DELETE	Deleting a comment/rank from the user’s profile.
+
+•	Home Feed Screen
+o	(Read/GET) Query all ranks for each user
+o	(Read/GET) Query profile image from candidate
+o	(Update/PUT) Search candidate’s account 
+•	Profile Screen
+o	(Read/GET) Query logged in user object
+o	(Update/PUT) Update user profile image
+o	(Create/POST) Create a new post object
+o	(Create/POST) Create a new comment on a user profile
+o	(Delete) Delete existing comment
+o	(Create/POST) Create a new rank on a user’s profile
+o	(Delete) Delete existing rank
+	
+Parse Method	Example
+Create and save objects
+Creating a new rank/post 
+Query objects and set conditions
+Fetching post/ranks for a user's profile
+Query object, update properties & save
+Changing a user's profile image
+Query object and delete
+Deleting a comment by the user who posted the comment
+
+
+
+
+
+
+
+// (Read/GET) Query all ranks for each user
+let query = PFQuery(className:"Rank")
+query.whereKey("author", equalTo: currentUser)
+query.order(byDescending: "createdAt")
+query.findObjectsInBackground { (ranks: [PFObject]?, error: Error?) in
+   if let error = error {
+      print(error.localizedDescription)
+   } else if let ranks = ranks {
+      print("Successfully retrieved \(ranks.count) ranks.")
+      // TODO: Do something with posts...
+   }
+}
+
