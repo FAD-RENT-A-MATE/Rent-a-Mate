@@ -97,10 +97,6 @@ The purpose of this dating app is to target single or lonely users and allow the
 ### Models
 ![](https://i.imgur.com/3d7SzvP.png)
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
-
 ![](https://i.imgur.com/NCHsNwF.png)
 
 ![](https://i.imgur.com/OODxhwk.png)
