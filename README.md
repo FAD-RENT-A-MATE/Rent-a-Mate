@@ -84,13 +84,7 @@ The purpose of this dating app is to target single or lonely users and allow the
     * =>None
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
 ![](https://i.imgur.com/2rbGgDV.jpg)
-
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
 
 ## Schema 
 
