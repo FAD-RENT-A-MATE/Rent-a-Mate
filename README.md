@@ -99,4 +99,4 @@ The purpose of this dating app is to target single or lonely users and allow the
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/apayton815/Parstagram/blob/master/Git%20Parstagram%20part%2022.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/FAD-RENT-A-MATE/Rent-a-Mate/blob/master/git%20login%20act%201.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
