@@ -94,3 +94,9 @@ The purpose of this dating app is to target single or lonely users and allow the
 ![](https://i.imgur.com/NCHsNwF.png)
 
 ![](https://i.imgur.com/gk1Bkgy.png)
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/apayton815/Parstagram/blob/master/Git%20Parstagram%20part%2022.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
