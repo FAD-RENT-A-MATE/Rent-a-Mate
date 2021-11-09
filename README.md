@@ -30,8 +30,8 @@ The purpose of this dating app is to target single or lonely users and allow the
 
 **Required Must-have Stories**
 
-- [ ] User can create an account
-- [ ] User can log in
+- [x] User can create an account
+- [x] User can log in
 - [ ] User can set a profile picture
 - [ ] User can set a description
 - [ ] User can rate others
