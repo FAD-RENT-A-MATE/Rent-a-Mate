@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.SettingsFragment">
+
+
+    <Button
+        android:id="@+id/btnPassword"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="75dp"
+        android:text="change password" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPassword"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="50dp"
+        android:text="app profile photo" />
+
+    <Button
+        android:id="@+id/btnDescription"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnProfile"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="50dp"
+        android:text="edit description" />
+</RelativeLayout>
