@@ -35,7 +35,7 @@ The purpose of this dating app is to target single or lonely users and allow the
 - [ ] User can set a profile picture
 - [ ] User can set a description
 - [ ] User can rate others
-- [ ] User can view a feed of profiles
+- [x] User can view a feed of profiles
 
 **Optional Nice-to-have Stories**
 
