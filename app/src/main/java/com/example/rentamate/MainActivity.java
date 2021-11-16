@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 Fragment fragment;
                 switch (menuItem.getItemId()) {
                     case R.id.action_home:
-                        //TODO: update fragment
                         fragment = new HomeFragment();
                         break;
                     case R.id.action_settings:
