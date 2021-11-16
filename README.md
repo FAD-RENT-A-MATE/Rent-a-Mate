@@ -101,3 +101,4 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/FAD-RENT-A-MATE/Rent-a-Mate/blob/master/git%20login%20act%201.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <img src='https://github.com/FAD-RENT-A-MATE/Rent-a-Mate/blob/master/ram%20git%202.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/FAD-RENT-A-MATE/Rent-a-Mate/blob/master/RentAMate_HomeFragment.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
