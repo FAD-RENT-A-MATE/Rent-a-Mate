@@ -12,27 +12,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="114dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="255dp"
         android:text="change password" />
 
     <Button
-        android:id="@+id/btnProfile"
+        android:id="@+id/btnLogout"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnPassword"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="114dp"
-        android:layout_marginTop="50dp"
-        android:text="app profile photo" />
-
-    <Button
-        android:id="@+id/btnDescription"
-        android:layout_width="190dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnProfile"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="114dp"
-        android:layout_marginTop="50dp"
-        android:text="edit description" />
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="35dp"
+        android:text="Logout" />
 </RelativeLayout>

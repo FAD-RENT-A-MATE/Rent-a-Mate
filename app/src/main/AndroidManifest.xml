@@ -5,6 +5,8 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:name=".ParseApplication"
@@ -27,6 +29,12 @@
         </provider>
 
         <activity android:name=".MainActivity" android:exported="true" />
+        <activity android:name=".EditDescription" android:exported="true" />
+        <activity android:name=".EditPassword" android:exported="true" />
+        <activity android:name=".CreateProfile" android:exported="true" />
+        <activity android:name=".EditProfileImage" android:exported="true" />
+        <activity android:name=".SubmitRating" android:exported="true" />
+        <activity android:name=".SelectUser" android:exported="true" />
 
         <activity
             android:name=".LoginActivity"

@@ -1,6 +1,7 @@
 package com.example.rentamate;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -91,6 +92,24 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
                 Glide.with(context).load(post.getImage().getUrl()).into(picImage);
             }
 
+            // An on click listener connected to the images
+            picImage.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent i = new Intent(context, SubmitRating.class);
+                    i.putExtra("id", post.getObjectId());
+                    context.startActivity(i);
+                }
+            });
+
+            selectBTN.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent i = new Intent(context, SelectUser.class);
+                    i.putExtra("id", post.getObjectId());
+                    context.startActivity(i);
+                }
+            });
         }
     }
 }

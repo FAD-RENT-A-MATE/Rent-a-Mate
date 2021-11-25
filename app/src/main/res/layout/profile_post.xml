@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="8dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
     android:orientation="vertical">
 
 
@@ -43,6 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:isIndicator="true"
+        android:minHeight="48dp"
         android:numStars="10"
         android:rating="5" />
 
@@ -52,5 +53,16 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:text='"Lovely!"' />
+
+    <TextView
+        android:id="@+id/tvSelectedBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected by user(s):" />
+
+    <TextView
+        android:id="@+id/tvSelectedByUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

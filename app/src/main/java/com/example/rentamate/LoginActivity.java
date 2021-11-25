@@ -68,10 +68,12 @@ public class LoginActivity extends AppCompatActivity {
         user.signUpInBackground(new SignUpCallback() {
             public void done(ParseException e) {
                 if (e == null) {
+                    goCreateProfile();
                     Toast.makeText(LoginActivity.this, "Signed Up!", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(LoginActivity.this, "Issue with signup!", Toast.LENGTH_SHORT).show();
-                    Log.e(TAG, "Issue with login", e);
+                    Log.e(TAG, "Issue with signup!", e);
+                    return;
                 }
             }
         });
@@ -101,6 +103,12 @@ public class LoginActivity extends AppCompatActivity {
 
     private void goMainActivity() {
         Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
+        finish();
+    }
+
+    private void goCreateProfile(){
+        Intent i = new Intent(this, CreateProfile.class);
         startActivity(i);
         finish();
     }
