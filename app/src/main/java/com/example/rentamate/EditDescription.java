@@ -36,7 +36,7 @@ public class EditDescription extends AppCompatActivity {
                     Toast.makeText(EditDescription.this, "Description cannot be empty", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                Toast.makeText(EditDescription.this, description, Toast.LENGTH_SHORT).show();
+                Toast.makeText(EditDescription.this, "Description save successful!", Toast.LENGTH_SHORT).show();
                 updateBio(objId, description);
             }
         });
