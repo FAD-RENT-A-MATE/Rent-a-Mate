@@ -32,9 +32,9 @@ The purpose of this dating app is to target single or lonely users and allow the
 
 - [x] User can create an account
 - [x] User can log in
-- [ ] User can set a profile picture
-- [ ] User can set a description
-- [ ] User can rate others
+- [x] User can set a profile picture
+- [x] User can set a description
+- [x] User can rate others
 - [x] User can view a feed of profiles
 
 **Optional Nice-to-have Stories**
@@ -102,3 +102,4 @@ Here's a walkthrough of implemented user stories:
 <img src='https://github.com/FAD-RENT-A-MATE/Rent-a-Mate/blob/master/git%20login%20act%201.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <img src='https://github.com/FAD-RENT-A-MATE/Rent-a-Mate/blob/master/ram%20git%202.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <img src='https://github.com/FAD-RENT-A-MATE/Rent-a-Mate/blob/master/RentAMate_HomeFragment.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/FAD-RENT-A-MATE/Rent-a-Mate/blob/master/RentAMate_ProfileFragment.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
