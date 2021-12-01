@@ -10,10 +10,10 @@
         android:id="@+id/btnPassword"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCreateProfile"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_marginStart="111dp"
-        android:layout_marginTop="255dp"
+        android:layout_marginTop="35dp"
         android:text="change password" />
 
     <Button
@@ -25,4 +25,14 @@
         android:layout_marginStart="111dp"
         android:layout_marginTop="35dp"
         android:text="Logout" />
+
+    <Button
+        android:id="@+id/btnCreateProfile"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="165dp"
+        android:text="Create Profile" />
 </RelativeLayout>

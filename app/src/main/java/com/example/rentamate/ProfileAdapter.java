@@ -52,6 +52,16 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.ViewHold
         return posts.size();
     }
 
+    public void clear() {
+        posts.clear();
+        notifyDataSetChanged();
+    }
+
+    public void addAll(List<Post> list) {
+        posts.addAll(list);
+        notifyDataSetChanged();
+    }
+
     public class ViewHolder extends RecyclerView.ViewHolder {
         private TextView userName;
         private ImageView picImage;
@@ -76,9 +86,9 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.ViewHold
             userDescription.setText(post.getDescription());
             userName.setText("@" + post.getUser().getUsername());
             homeRatingBar.setRating(post.getRating());
-            ParseUser selectedUser = post.getSelectedBy().fetchIfNeeded();
+            ParseUser selectedUser = post.getSelectedBy();
             if (selectedUser != null){
-                tvSelectedByUsers.setText("@" + selectedUser.getUsername());
+                tvSelectedByUsers.setText("@" + selectedUser.fetchIfNeeded().getUsername());
             }
             ParseFile image = post.getImage();
             if (image != null) {

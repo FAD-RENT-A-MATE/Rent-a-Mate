@@ -1,5 +1,6 @@
 package com.example.rentamate;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -30,6 +31,10 @@ public class SubmitRating extends AppCompatActivity {
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if (etSubmitRating.getText().length() == 0){
+                    Toast.makeText(SubmitRating.this, "Must be between 1-10", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 int newRating = Integer.valueOf(etSubmitRating.getText().toString());
                 if (newRating < 1 || newRating > 10) {
                     Toast.makeText(SubmitRating.this, "Must be between 1-10", Toast.LENGTH_SHORT).show();

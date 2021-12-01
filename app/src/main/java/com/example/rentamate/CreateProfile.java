@@ -152,7 +152,7 @@ public class CreateProfile extends AppCompatActivity implements ActivityCompat.O
                             Toast.makeText(CreateProfile.this, "Error while saving!", Toast.LENGTH_SHORT).show();
                             return;
                         }
-                        Log.i(TAG, "Post save was successful!!");
+                        Log.i(TAG, "Profile was created!!");
                         Toast.makeText(CreateProfile.this, "Post save was successful!!", Toast.LENGTH_SHORT).show();
                         Intent i = new Intent(CreateProfile.this, MainActivity.class);
                         startActivity(i);

@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.example.rentamate.CreateProfile;
 import com.example.rentamate.EditDescription;
 import com.example.rentamate.EditPassword;
 import com.example.rentamate.LoginActivity;
@@ -26,6 +27,7 @@ public class SettingsFragment extends Fragment {
     public static final String TAG = "SettingsFragment";
     Button btnPassword;
     Button btnLogout;
+    Button btnCreateProfile;
 
 
 
@@ -52,6 +54,7 @@ public class SettingsFragment extends Fragment {
 
         btnPassword = view.findViewById(R.id.btnPassword);
         btnLogout = view.findViewById(R.id.btnLogout);
+        btnCreateProfile = view.findViewById(R.id.btnCreateProfile);
 
 
         btnLogout.setOnClickListener(new View.OnClickListener() {
@@ -67,6 +70,14 @@ public class SettingsFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getContext(), EditPassword.class);
+                startActivity(i);
+            }
+        });
+
+        btnCreateProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getContext(), CreateProfile.class);
                 startActivity(i);
             }
         });
